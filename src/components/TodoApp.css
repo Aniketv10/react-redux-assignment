@@ -1,0 +1,27 @@
+.test1 {
+  border-radius: 9px;
+  margin-right: 10px;
+}
+.test1:hover{
+  background-color: green;
+}
+.test2{
+  background-color: floralwhite;
+  border-radius: 8px;
+}
+
+.test3 {
+  background-color: aqua;
+  border-radius: 8px;
+  width: 100px;
+  height: 40px;
+  margin-left: 5px;
+}
+.test4{
+  border-radius: 9px;
+  margin-right: 10px;
+}
+
+.test5{
+  border-radius: 5px;
+}
