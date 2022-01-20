@@ -26,7 +26,7 @@ function App() {
           
         </div>
         <div
-          style={{ backgroundColor: '#362C65', padding: '15px', margin: '10px' }}
+          style={{ padding: '15px', margin: '10px' }}
         >
           <TodoList />
         </div>

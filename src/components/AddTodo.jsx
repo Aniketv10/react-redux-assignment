@@ -15,6 +15,11 @@ export const AddTodo = () => {
       setValue('');
     }
   };
+  const onKeyUpHandler = (event) => {
+    if(event.key === "Enter"){
+      handleSubmit();
+  }
+  }
 
   const handleInput = (e) => {
     setValue(e.target.value);
@@ -32,7 +37,8 @@ export const AddTodo = () => {
           type="text"
           value={value}
           onChange={handleInput}
-         
+          onKeyUp={onKeyUpHandler}
+          placeHolder="Add Todo List...✍"
         />
       </FormControl>
       &nbsp; &nbsp;
